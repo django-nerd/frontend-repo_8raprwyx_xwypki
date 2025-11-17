@@ -1,0 +1,48 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 218 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.44.201:3000/
+8:40:42 AM [vite] Pre-transform error: Failed to resolve import "three" from "src/components/Visualizer3D.jsx". Does the file exist?
+8:40:45 AM [vite] Internal server error: Failed to resolve import "three" from "src/components/Visualizer3D.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Visualizer3D.jsx:2:23
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef } from "react";
+  3  |  import * as THREE from "three";
+     |                          ^
+  4  |  export default function Visualizer3D({ shipments = [] }) {
+  5  |    const mountRef = useRef(null);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+8:41:23 AM [vite] Internal server error: Failed to resolve import "three" from "src/components/Visualizer3D.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Visualizer3D.jsx:2:23
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useEffect, useRef } from "react";
+  3  |  import * as THREE from "three";
+     |                          ^
+  4  |  export default function Visualizer3D({ shipments = [] }) {
+  5  |    const mountRef = useRef(null);
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
